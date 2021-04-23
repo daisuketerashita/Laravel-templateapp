@@ -1,0 +1,188 @@
+html,body{
+    height: 100%;
+}
+body a{
+    text-decoration: none;
+}
+#app{
+    height: 100%;
+}
+
+/* header */
+.navbar{
+    background:#222;
+}
+.navbar a {
+    font-weight: bold;
+    color: #ccc;
+}
+
+/* header */
+
+
+/* main */
+main{
+    background: #fff;
+}
+#reg-main{
+    padding: 5% 0% 15% 0%;
+}
+#log-main{
+    padding: 5% 0% 18% 0%;
+}
+
+.main_container{
+    display: flex;
+    width: 100%;
+}
+.list-group a{
+    color: #333;
+}
+.ok_active{
+    background: #77B698;
+}
+
+/* main_left */
+.main_left{
+    background: #F8FAFC;
+    padding: 1.3rem;
+    flex: 1 1 auto;
+    width: 30%;
+}
+.main_left_container{
+    background: #fff;
+    border-radius: 5px;
+}
+.create_area{
+    padding: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.create_area a{
+    display: block;
+    color: #222;
+    border: 1px solid #555;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.list-group a{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 0.8rem;
+}
+/* main_left */
+
+/* main_right */
+.main_right{
+    background: #77B698;
+    padding: 1.7rem 10%;
+    width: 70%;
+}
+.template_area textarea{
+    resize: none;
+    width: 100%;
+    height: 500px;
+}
+.active_id{
+    background: #77B698;
+}
+
+/* コピーボタン */
+.btn-copy{
+    padding: 10px;
+    width: 120px;
+    letter-spacing: 2px;
+    background: #D26481;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+/* 編集 削除ボタン */
+.buttons{
+    color: #fff;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    border: 1 solid #000;
+}
+.btn-edit{
+    margin-left: 30px;    
+}
+.btn-delete{
+    margin-left: 20px;
+}
+/* main */
+
+
+/* footer */
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    /* padding-top: 2px; */
+}
+
+
+/* 作成ページ */
+.create_container{
+    width: 100%;
+    background: burlywood;
+    padding: 2% 0%;
+}
+.template_create{
+    width: 50%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    border: 3px solid #ccc;
+    background: #fff;
+}
+.create_header{
+    background: #333;
+    color: #fff;
+    padding: 2%;
+}
+.create_form{
+    width: 90%;
+    padding: 2% 0%;
+    margin: 0 auto;
+}
+.form_group p {
+    margin-bottom: 1%;
+}
+.form_group input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+}
+.form_group textarea{
+    width: 100%;
+    box-sizing: border-box;
+}
+.create_submit{
+    display: flex;
+}
+.btn_back{
+    margin-top: 2%; 
+    display: inline-block;
+}
+.btn-register{
+    display: block;
+    background:cornflowerblue;
+    width: 65px;
+    padding: 1.2%;
+    margin-left: auto;
+    cursor: pointer;
+}
+.alert_text{
+    color: red;
+    margin-bottom: 10px;
+}
+.alert_text ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+/* 作成ページ */
