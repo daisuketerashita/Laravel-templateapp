@@ -5,7 +5,7 @@
     <div class="main_left">
         <div class="main_left_container">
             <div class="create_area">
-                <a href="{{ route('create') }}" class="button-create">テンプレートを作成する</a>
+                <a href="{{ route('create') }}" class="button-create">定型文を作成する</a>
             </div><!-- /.create_area -->
             <div class="list-group">
             @foreach($templates as $template)

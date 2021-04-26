@@ -3,7 +3,7 @@
 @section('content')
 <div class="main_container">
     <div class="template_create">
-        <div class="create_header">定型文を作成する</div><!-- /.create_header -->
+        <div class="create_header">定型分を作成する</div><!-- /.create_header -->
             <div class="create_form">
                 <div class="alert_area">
                 @if($errors->any())
